@@ -21,7 +21,7 @@ public class main /*implements Runnable*/ {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int cislo;
+        int cislo; //Začátek komentáře když se validace podělá
         do {
             System.out.print("Zadejte počet sekund : ");
             while (!sc.hasNextInt()) {
@@ -30,7 +30,9 @@ public class main /*implements Runnable*/ {
             }
             cislo = sc.nextInt();
         } while (cislo <= 0);
-        System.out.println("Zadáno" +cislo);
+        System.out.println("Zadáno " +cislo); //Konec komentáře když se validace podělá
+
+        /*System.out.print("Zadejte počet sekund : ");*/ //Odkomentovat když se validace podělá
         String secs = sc.nextLine();
         int delay = 1000;
         int period = 1000;
