@@ -23,7 +23,7 @@ public class main /*implements Runnable*/ {
         Scanner sc = new Scanner(System.in);
         int cislo;
         do {
-            System.out.print("Input seconds => : ");
+            System.out.print("Zadejte počet sekund : ");
             while (!sc.hasNextInt()) {
                 System.out.println("Vstup není kladné číslo");
                 sc.next();
